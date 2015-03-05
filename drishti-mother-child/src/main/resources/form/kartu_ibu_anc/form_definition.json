@@ -1,0 +1,210 @@
+{
+    "form_data_definition_version": "1",
+    "form": {
+        "bind_type": "kartu_ibu",
+        "default_bind_path": "/model/instance/kartu_ibu_ANC/",
+        "fields": [
+            {
+                "name": "id",
+                "shouldLoadValue": true
+            },
+            {
+                "name": "motherId",
+                "source": "kartu_ibu.ibu.id"
+            },
+			{
+                "name": "ANC_date",
+                "bind": "/model/instance/Kartu_ibu_ANC/ANC_DATE"
+            },
+            {
+                "name": "Jamkesmas",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01043"
+            },
+            {
+                "name": "CaraMasukTempatPelayanan",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01044"
+            },
+            {
+                "name": "UsiaKlinis",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01045"
+            },
+            {
+                "name": "TrimesterKe",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01046"
+            },
+            {
+                "name": "AnamnesisIbu",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01047",
+            },
+            {
+                "name": "BB",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01048",
+            },
+            {
+                "name": "TDSistolik",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01049",
+            },
+            {
+                "name": "TDDiastolik",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01050",
+            },
+            {
+                "name": "LILA",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01051",
+            },
+            {
+                "name": "StatusGiziibu",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01052",
+            },
+            {
+                "name": "TFU",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01053",
+            },
+            {
+                "name": "RefleksPatelaIbu",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01054",
+            },
+            {
+                "name": "DJJ",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01055",
+            },
+            {
+                "name": "KepalaJaninTerhadapPAP",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01056",
+            },
+            {
+                "name": "TaksiranBeratJanin",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01057",
+            },
+            {
+                "name": "PersentasiJanin",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01058",
+            },
+            {
+                "name": "JumlahJanin",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01059",
+            },
+            {
+                "name": "StatusImunisasiTT",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01060",
+            },
+            {
+                "name": "PelayananInjeksiTT",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01061",
+            },
+            {
+                "name": "PelayananCatatdiBukuKia",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01062",
+            },
+            {
+                "name": "PelayananFe",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01063",
+            },
+            {
+                "name": "LaboratoriumPeriksaHbDilakukan",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01064",
+            },
+            {
+                "name": "LaboratoriumPeriksaHbHasil",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01065",
+            },
+            {
+                "name": "LaboratoriumPeriksaHbAnemia",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01066",
+            },
+            {
+                "name": "LaboratoriumProteinUria",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01067",
+            },
+            {
+                "name": "LaboratoriumGulaDarah",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01068",
+            },
+            {
+                "name": "LaboratoriumThalasemia",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01069",
+            },
+            {
+                "name": "LaboratoriumSifilis",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01070",
+            },
+            {
+                "name": "LaboratoriumHbsAg",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01071",
+            },
+            {
+                "name": "IntegrasiProgramPMTCTVCT",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01072",
+            },
+            {
+                "name": "IntegrasiProgramPMTCTPeriksaDarah",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01073",
+            },
+            {
+                "name": "IntegrasiProgramPMTCTSerologi",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01074",
+            },
+            {
+                "name": "IntegrasiProgramPMTCTARVProfilaksis",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01075",
+            },
+            {
+                "name": "IntegrasiProgramMalariaPeriksaDarah",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01076",
+            },
+            {
+                "name": "IntegrasiProgramMalariaMalaria",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01077",
+            },
+            {
+                "name": "IntegrasiProgramMalariaObat",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01078",
+            },
+            {
+                "name": "IntegrasiProgramMalariaKelambuBerinsektisida",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01079",
+            },
+            {
+                "name": "IntegrasiProgramTBDahak",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01080",
+            },
+            {
+                "name": "IntegrasiProgramTBTBC",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01081",
+            },
+            {
+                "name": "IntegrasiProgramTBObat",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01082",
+            },
+            {
+                "name": "ResikoTerdeteksiPertamaKaliOleh",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01083",
+            },
+            {
+                "name": "KomplikasidalamKehamilan",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01084",
+            },
+            {
+                "name": "DirujukKe",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01085",
+            },
+            {
+                "name": "lain-lain",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01085L",
+            },
+            {
+                "name": "KeadaanIbusaatTiba",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01086",
+            },
+            {
+                "name": "KeadaanIbusaatPulang",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01087",
+            },
+            {
+                "name": "Keterangan",
+                "bind": "/model/instance/Kartu_ibu_ANC/B01088",
+            }
+			
+        ]
+    }
+}
